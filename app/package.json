@@ -1,0 +1,50 @@
+{
+  "name": "dog-a-eye",
+  "homepage": "final-project/",
+  "version": "1.0",
+  "dependencies": {
+    "@techstark/opencv-js": "4.5.5-release.2",
+    "bootstrap": "^5.3.0",
+    "html-to-image": "^1.11.11",
+    "onnxruntime-web": "^1.15.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "use-local-storage": "^3.0.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": {
+    "name": "Ali Shaer, Daniel Sharon, Dror Mor, Eddie Kanevsky",
+    "url": "https://github.com/Daniel-Himself"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@craco/craco": "^7.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "gh-pages": "^4.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
